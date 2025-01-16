@@ -78,6 +78,6 @@ footer {
     margin-top: 2rem;
 }
 
-section #approuve {
+#approuve strong{
     color: red;
 }
