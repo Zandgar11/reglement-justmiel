@@ -135,3 +135,51 @@ footer {
         font-size: 0.9rem;
     }
 }
+
+/* Bouton de changement de thème */
+#theme-toggle {
+    background: none;
+    border: 2px solid #ecf0f1;
+    color: #ecf0f1;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    transition: all 0.3s ease;
+}
+
+#theme-toggle:hover {
+    background: #ecf0f1;
+    color: #2c3e50;
+}
+
+/* Mode sombre */
+body.dark {
+    background-color: #222;
+    color: #ecf0f1;
+}
+
+header.dark {
+    background: #1b2733;
+    color: #ecf0f1;
+}
+
+nav.dark {
+    background: #222;
+}
+
+nav.dark a {
+    color: #ecf0f1;
+}
+
+.container.dark {
+    background: #333;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+footer.dark {
+    background: #1b2733;
+}
