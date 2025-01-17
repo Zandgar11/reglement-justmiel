@@ -113,6 +113,11 @@ body.dark {
     color: #f5f5f5; /* Texte clair */
 }
 
+.container.dark {
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+}
+
 header.dark {
     background: #1a1a1a;
     color: #f5f5f5;
