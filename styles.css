@@ -1,11 +1,11 @@
 /* Style global */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #ffffff;
     margin: 0;
     padding: 0;
-    color: #333333; /* Texte noir-gris pour un meilleur contraste */
+    color: #222222; /* Couleur sombre pour le texte */
 }
 
 header {
@@ -37,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffd700; /* Couleur dorée pour le survol */
+    color: #ffd700; /* Couleur dorée sur le survol */
 }
 
 .container {
@@ -47,6 +47,7 @@ nav a:hover {
     background: #f8f9fa;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 section {
@@ -57,6 +58,7 @@ section h2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
     color: #2c3e50;
+    transition: color 0.3s ease;
 }
 
 ul {
@@ -71,6 +73,7 @@ ul li {
 
 ul li strong {
     color: #333333;
+    transition: color 0.3s ease;
 }
 
 footer {
@@ -126,12 +129,12 @@ nav.dark a:hover {
 
 .container.dark {
     background: #2a2a2a;
-    color: #f5f5f5;
+    color: #f5f5f5; /* Assure que le texte est bien visible */
     box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
 }
 
 section.dark h2 {
-    color: #ffd700;
+    color: #ffd700; /* Accentuation des titres */
 }
 
 ul.dark li {
