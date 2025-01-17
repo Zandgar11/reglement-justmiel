@@ -113,7 +113,7 @@ body.dark {
     color: #f5f5f5; /* Texte clair */
 }
 
-.container.dark {
+div.dark {
     background-color: #1a1a1a;
     color: #f5f5f5;
 }
@@ -142,11 +142,15 @@ nav.dark a:hover {
 }
 
 section.dark h2 {
-    color: #ffd700; /* Titres en jaune pour le contraste */
+    color: #ffffff; /* Titres en jaune pour le contraste */
+}
+
+section.dark {
+    background-color: #222;
 }
 
 ul.dark li {
-    color: #f5f5f5; /* Texte des articles */
+    color: #000000; /* Texte des articles */
 }
 
 ul.dark li strong {
