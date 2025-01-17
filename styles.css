@@ -158,28 +158,60 @@ footer {
 
 /* Mode sombre */
 body.dark {
-    background-color: #222;
-    color: #ecf0f1;
+    background-color: #181818;
+    color: #f1f1f1;
 }
 
 header.dark {
-    background: #1b2733;
-    color: #ecf0f1;
+    background: #121212;
+    color: #f1f1f1;
 }
 
 nav.dark {
-    background: #222;
+    background: #1f1f1f;
 }
 
 nav.dark a {
-    color: #ecf0f1;
+    color: #f1f1f1;
+}
+
+nav.dark a:hover {
+    text-decoration: underline;
+    color: #ffd700;
 }
 
 .container.dark {
-    background: #333;
+    background: #242424;
+    color: #f1f1f1;
+    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
 }
 
+section.dark h2 {
+    color: #ffd700;
+}
+
+ul.dark li {
+    color: #f1f1f1;
+}
+
+ul.dark li strong {
+    color: #ffd700;
+}
+
 footer.dark {
-    background: #1b2733;
+    background: #121212;
+    color: #f1f1f1;
+}
+
+/* Bouton clair/sombre - Mode sombre */
+body.dark #theme-toggle {
+    background: none;
+    border: 2px solid #f1f1f1;
+    color: #f1f1f1;
+}
+
+body.dark #theme-toggle:hover {
+    background: #f1f1f1;
+    color: #121212;
 }
