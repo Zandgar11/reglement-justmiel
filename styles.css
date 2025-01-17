@@ -119,12 +119,12 @@ div.dark {
 }
 
 header.dark {
-    background: #1a1a1a;
+    background-color: #1a1a1a;
     color: #f5f5f5;
 }
 
 nav.dark {
-    background: #1a1a1a;
+    background-color: #1a1a1a;
 }
 
 nav.dark a {
@@ -136,7 +136,7 @@ nav.dark a:hover {
 }
 
 .container.dark {
-    background: #1e1e1e;
+    background-color: #1e1e1e;
     color: #f5f5f5; /* Texte hérité */
     box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
 }

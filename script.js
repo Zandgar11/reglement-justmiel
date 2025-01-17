@@ -6,7 +6,7 @@ const body = document.body;
 const currentTheme = localStorage.getItem('theme');
 if (currentTheme === 'dark') {
     body.classList.add('dark');
-    themeToggleButton.textContent = '☀️';
+    themeToggleButton.textContent = '☀️';  // Affiche le soleil pour indiquer que c'est le mode sombre
 }
 
 // Écouteur d'événement pour changer de thème
@@ -15,10 +15,10 @@ themeToggleButton.addEventListener('click', () => {
     
     // Met à jour le texte du bouton
     if (body.classList.contains('dark')) {
-        themeToggleButton.textContent = '☀️';
+        themeToggleButton.textContent = '☀️';  // Affiche le soleil pour passer en mode clair
         localStorage.setItem('theme', 'dark');
     } else {
-        themeToggleButton.textContent = '🌙';
+        themeToggleButton.textContent = '🌙';  // Affiche la lune pour passer en mode sombre
         localStorage.setItem('theme', 'light');
     }
 });
