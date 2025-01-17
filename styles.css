@@ -159,12 +159,12 @@ footer {
 /* Mode sombre */
 body.dark {
     background-color: #181818;
-    color: #f1f1f1;
+    color: #e0e0e0; /* Gris clair pour éviter trop de contraste */
 }
 
 header.dark {
     background: #121212;
-    color: #f1f1f1;
+    color: #ffffff;
 }
 
 nav.dark {
@@ -172,46 +172,46 @@ nav.dark {
 }
 
 nav.dark a {
-    color: #f1f1f1;
+    color: #e0e0e0; /* Gris clair pour cohérence */
 }
 
 nav.dark a:hover {
     text-decoration: underline;
-    color: #ffd700;
+    color: #ffd700; /* Couleur dorée pour le survol */
 }
 
 .container.dark {
     background: #242424;
-    color: #f1f1f1;
+    color: #e0e0e0; /* Gris clair pour le texte */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Légère ombre pour profondeur */
 }
 
 section.dark h2 {
-    color: #ffd700;
+    color: #ffd700; /* Met en avant les titres */
 }
 
 ul.dark li {
-    color: #f1f1f1;
+    color: #e0e0e0;
 }
 
 ul.dark li strong {
-    color: #ffd700;
+    color: #ffd700; /* Accentuation des mots importants */
 }
 
 footer.dark {
     background: #121212;
-    color: #f1f1f1;
+    color: #e0e0e0;
 }
 
 /* Bouton clair/sombre - Mode sombre */
 body.dark #theme-toggle {
     background: none;
-    border: 2px solid #f1f1f1;
-    color: #f1f1f1;
+    border: 2px solid #e0e0e0;
+    color: #e0e0e0;
 }
 
 body.dark #theme-toggle:hover {
-    background: #f1f1f1;
+    background: #e0e0e0;
     color: #121212;
 }
