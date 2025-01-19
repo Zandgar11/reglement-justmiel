@@ -1,16 +1,25 @@
+/* CSS HEX */
+:root {
+    --dark-purple: #0d0221ff;
+    --federal-blue: #0f084bff;
+    --marian-blue: #26408bff;
+    --light-blue: #a6cfd5ff;
+    --mint-green: #c2e7d9ff;
+}
+
 /* Style global */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #ffffff;
+    background-color: var(--mint-green);
     margin: 0;
     padding: 0;
-    color: #222; /* Texte par défaut */
+    color: var(--dark-purple); /* Texte par défaut */
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 header {
-    background: #2c3e50;
+    background: var(--federal-blue);
     color: #ffffff;
     padding: 1rem 0;
     text-align: center;
@@ -23,7 +32,7 @@ header h1 {
 }
 
 nav {
-    background: #34495e;
+    background: var(--marian-blue);
     display: flex;
     justify-content: center;
     padding: 0.5rem 0;
@@ -39,14 +48,14 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffd700;
+    color: var(--mint-green);
 }
 
 .container {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1.5rem;
-    background: #f8f9fa; /* Fond clair par défaut */
+    background: var(--light-blue); /* Fond clair par défaut */
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -59,7 +68,7 @@ section {
 section h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #2c3e50;
+    color: var(--federal-blue);
     transition: color 0.3s ease;
 }
 
@@ -75,12 +84,12 @@ ul li {
 }
 
 ul li strong {
-    color: #222; /* Texte renforcé clair par défaut */
+    color: var(--dark-purple); /* Texte renforcé clair par défaut */
     transition: color 0.3s ease;
 }
 
 footer {
-    background: #2c3e50;
+    background: var(--federal-blue);
     color: #ffffff;
     text-align: center;
     padding: 1rem 0;
@@ -93,8 +102,8 @@ footer {
     top: 1rem;
     right: 1rem;
     background: none;
-    border: 2px solid #2c3e50;
-    color: #2c3e50;
+    border: 2px solid var(--federal-blue);
+    color: var(--federal-blue);
     padding: 0.5rem 1rem;
     border-radius: 5px;
     cursor: pointer;
@@ -103,7 +112,7 @@ footer {
 }
 
 #theme-toggle:hover {
-    background: #2c3e50;
+    background: var(--federal-blue);
     color: #ffffff;
 }
 
@@ -132,7 +141,7 @@ nav.dark a {
 }
 
 nav.dark a:hover {
-    color: #ffd700;
+    color: var(--mint-green);
 }
 
 .container.dark {
@@ -154,7 +163,7 @@ ul.dark li {
 }
 
 ul.dark li strong {
-    color: #ffd700; /* Texte renforcé */
+    color: var(--mint-green); /* Texte renforcé */
 }
 
 footer.dark {
