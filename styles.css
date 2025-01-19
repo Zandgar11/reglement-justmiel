@@ -1,9 +1,8 @@
 /* CSS HEX */
 :root {
-    --dark-gray: #2f2f2f;
-    --medium-gray: #6e6e6e;
-    --light-gray: #b3b3b3;
-    --lighter-gray: #dcdcdc;
+    --light-gray: #f1f1f1;
+    --medium-gray: #b0b0b0;
+    --dark-gray: #4d4d4d;
     --white: #ffffff;
     --accent-color: #ff9900; /* Accent color for buttons and links */
 }
@@ -12,10 +11,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.8;
-    background-color: var(--dark-gray);
+    background-color: var(--light-gray);
     margin: 0;
     padding: 0;
-    color: var(--white);
+    color: var(--dark-gray);
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -24,7 +23,7 @@ header {
     color: var(--white);
     padding: 2rem 0;
     text-align: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: background 0.3s ease;
 }
 
@@ -40,7 +39,7 @@ nav {
     display: flex;
     justify-content: center;
     padding: 1rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: background 0.3s ease;
 }
 
@@ -63,9 +62,9 @@ nav a:hover {
     max-width: 960px;
     margin: 4rem auto;
     padding: 2rem;
-    background: var(--light-gray);
+    background: var(--white);
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -76,7 +75,7 @@ section {
 section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: var(--medium-gray);
+    color: var(--dark-gray);
     font-weight: 500;
 }
 
@@ -93,7 +92,7 @@ ul li {
 }
 
 ul li strong {
-    color: var(--dark-gray);
+    color: var(--medium-gray);
     font-weight: bold;
 }
 
@@ -102,7 +101,7 @@ footer {
     color: var(--white);
     text-align: center;
     padding: 2rem;
-    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
     transition: background 0.3s ease;
 }
 
@@ -131,16 +130,16 @@ footer {
 
 /* Mode sombre */
 body.dark {
-    background-color: #121212;
-    color: #f5f5f5;
+    background-color: #e0e0e0;
+    color: #333;
 }
 
 header.dark {
-    background: #1a1a1a;
+    background: #8c8c8c;
 }
 
 nav.dark {
-    background: #333;
+    background: #8c8c8c;
 }
 
 nav.dark a {
@@ -152,21 +151,21 @@ nav.dark a:hover {
 }
 
 .container.dark {
-    background-color: #1e1e1e;
-    color: #f5f5f5;
-    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+    background-color: #f9f9f9;
+    color: #333;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
 section.dark h2 {
-    color: #f5f5f5;
+    color: #333;
 }
 
 section.dark {
-    background-color: #222;
+    background-color: #f1f1f1;
 }
 
 ul.dark li {
-    color: #f5f5f5;
+    color: #333;
 }
 
 ul.dark li strong {
@@ -174,7 +173,7 @@ ul.dark li strong {
 }
 
 footer.dark {
-    background: #333;
+    background: #8c8c8c;
 }
 
 body.dark #theme-toggle {
